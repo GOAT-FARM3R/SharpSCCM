@@ -32,7 +32,7 @@ jobs:
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
       with:
-        name: my-artifact
-        path: SharpSCCM\bin\x64\Release\SharpSCCM_merged.exe
+        name: artifact
+        path: bin\x64\Release\SharpSCCM_merged.exe
         retention-days: 1
   
